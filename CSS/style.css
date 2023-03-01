@@ -1,0 +1,99 @@
+body 
+{
+  background: -webkit-linear-gradient(bottom right, #81abff, #868686);
+}
+
+p.bio
+{
+  position: absolute; /* Requirement-2.15 */
+  z-index: auto;   /*Requirement-2.17 */ 
+  color: white;
+  width: 600px;
+  height: 50px;
+  background: rgb(185, 174, 174);
+  overflow-y: auto; /* Requirement-2.14 */
+}
+
+em p /*Requirement-2.A */
+{
+  font-size: 18px;            /* Requirement-2.1 */
+  color: rgb(210, 210, 210);  /* Requirement-2.3 */ 
+}
+  
+span.underline /* Requirement-2.C */ 
+{
+  text-decoration: underline; /* Requirement-2.2 */
+}
+  
+.border 
+{
+  border: 20px solid rgb(185, 187, 203); /* Requirement-2.5 */
+}
+
+.blue 
+{
+  background: blue;
+}
+
+table tr td 
+{
+  background-color: rgb(172, 172, 181); /* Requirement-2.4 */
+  color: rgb(77, 54, 113);
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px; /* Requirement-2.6 */
+}
+
+img 
+{
+  border-radius: 50%;
+  height: 400px /* Requirement-2.7 */
+}
+
+.special li 
+{
+  list-style: inside; /* Requirement-2.8 */
+  padding-left: 50px;
+}
+
+table 
+{
+  border: 10px solid black; /* Requirement-2.9 */
+  width: 50%; /* Requirement-2.10 */
+  border-spacing: 30px;
+}
+
+img.float
+{
+  float: left; /* Requirement-2.11 */
+}
+  
+ul.menu
+{
+  display: inline; /* Requirement-2.12 */
+} 
+
+#clear  /* Requirement-2.D */ 
+{
+  clear: left; /* Requirement-2.13 */
+}
+
+a:visited /* Requirement-2.E */ 
+{
+  color: rgb(236, 0, 0);
+}
+
+details, details summary /* Requirement-2.B */
+{
+  background: lightgreen;
+}
+
+details /* Requirement-2.G */
+{
+  height: 80px;
+}
+
+details[open] summary /* Requirement-2.H */
+{
+  background: rgb(229, 255, 0);
+}
